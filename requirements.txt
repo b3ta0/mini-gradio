@@ -1,1 +1,3 @@
-gradio>=4.0,<5.0
+# 固定兼容版本，解决 HfFolder 报错
+gradio==4.19.2
+huggingface-hub==0.21.4
